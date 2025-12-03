@@ -1,13 +1,11 @@
-# femtech-privacy-disaster-detection
-Deep learning detection of privacy policy deception in reproductive health apps using BERT and NLI. Achieves 76.4% contradiction detection and 100% regulatory alignment. ML/Deep Learning Research - Fall 2025.
-[README.md](https://github.com/user-attachments/files/23916605/README.md)
+[README.md](https://github.com/user-attachments/files/23916864/README.md)
 # Privacy Policy Deception Detection in Reproductive Health Applications
 
 ## A Deep Learning Approach to Detecting Human-Induced Data Disasters
 
 **Author:** Alexis Prieto  
 **Course:** ML/Deep Learning Research - Fall 2025  
-**Institution:** Graduate Research Program
+**Institution:** Texas A&M Univeristy-San Antonio: Computer Science Graduate Research Program
 
 ---
 
@@ -87,8 +85,8 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/femtech-privacy-detection.git
-cd femtech-privacy-detection
+git clone https://github.com/aprie06/femtech-privacy-disaster-detection.git
+cd femtech-privacy-disaster-detection
 
 # Create virtual environment
 python -m venv venv
