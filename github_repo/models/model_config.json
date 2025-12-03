@@ -1,0 +1,59 @@
+{
+  "model_type": "bert",
+  "base_model": "bert-base-uncased",
+  "num_labels": 9,
+  "max_length": 128,
+  "training_config": {
+    "learning_rate": 2e-5,
+    "batch_size": 16,
+    "epochs": 3,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "train_samples": 1213,
+    "test_samples": 303,
+    "train_split": 0.8,
+    "random_seed": 42
+  },
+  "class_weights": {
+    "Data Collection": 0.30,
+    "Data Sharing": 0.42,
+    "Data Retention": 1.35,
+    "User Rights": 1.42,
+    "Security Measures": 1.73,
+    "Third Party": 2.17,
+    "Policy Changes": 2.41,
+    "Contact Info": 3.82,
+    "Legal Compliance": 8.42
+  },
+  "label_mapping": {
+    "0": "Data Collection",
+    "1": "Data Sharing",
+    "2": "Data Retention",
+    "3": "User Rights",
+    "4": "Security Measures",
+    "5": "Third Party",
+    "6": "Policy Changes",
+    "7": "Contact Info",
+    "8": "Legal Compliance"
+  },
+  "performance": {
+    "best_validation_accuracy": 0.595,
+    "initial_accuracy_no_weighting": 0.378,
+    "improvement": 0.217,
+    "violation_detection_rate": 0.222,
+    "classification_detection_gap": 0.373
+  },
+  "nli_config": {
+    "model": "microsoft/deberta-large-mnli",
+    "approach": "zero-shot",
+    "max_length": 512,
+    "severity_thresholds": {
+      "CRITICAL": 0.75,
+      "HIGH": 0.55,
+      "MEDIUM": 0.35,
+      "LOW": 0.0
+    }
+  },
+  "created": "2025-11-26",
+  "author": "Alexis Prieto"
+}

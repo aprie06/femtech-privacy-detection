@@ -1,0 +1,16 @@
+violation_id,app_name,violation_type,violation_description,policy_sentence,source,year
+V001,Flo,Data Sharing,Shared pregnancy and period data with Facebook Analytics from 2016-2019,We do not share users' health information with third parties,FTC Settlement 2021,2019
+V002,Flo,Data Sharing,Exposed user data to 8+ third parties via embedded SDKs including AppsFlyer and Flurry,Your intimate data is protected with the highest security standards,WSJ Investigation,2019
+V003,Flo,Data Retention,User notes containing intimate health details retained server-side indefinitely,All data is deleted upon user request,Privacy International,2021
+V004,Flo,SDK Tracking,AppsFlyer and Flurry SDKs embedded without clear disclosure to users,We use minimal tracking technologies necessary for app functionality,Class Action 2025,2024
+V005,Flo,Consent,Pre-checked consent boxes for data sharing that users had to actively uncheck,Users must explicitly opt-in to any data sharing,FTC Finding,2021
+V006,Clue,Data Broker,User data appeared on Narrative data marketplace despite privacy commitments,We work with carefully selected service providers who respect your privacy,Privacy Reports,2022
+V007,Clue,Analytics,Google Analytics embedded collecting user behavior data without clear disclosure,We use industry-standard security measures to protect your information,App Analysis,2022
+V008,Ovia,Employer Sharing,Shared detailed health data with employers through corporate wellness programs,Your health data is kept strictly confidential,Washington Post,2019
+V009,Ovia,Ad Tracking,Collects 11 different data points for third-party advertising purposes,We collect only the information necessary to provide our services,Consumer Reports,2020
+V010,Ovia,Pregnancy Data,Pregnancy status and related health information shared with insurance partners,Health information is not shared with insurance companies,Investigative Report,2019
+V011,Glow,Security,User data was accessible to anyone who knew the user email address,Your data is securely stored using encryption and access controls,CA AG Settlement,2020
+V012,Glow,Partner Access,Partner accounts could access sensitive cycle and fertility data without explicit consent,Only you control who can see your personal health information,Security Audit,2020
+V013,Maya,Facebook SDK,Shared menstrual cycle data with Facebook before SDK removal following activist pressure,We protect your reproductive health information from third parties,Privacy Activists,2019
+V014,MIA Fem,Facebook Sharing,Shared intimate health data directly with Facebook for advertising purposes,Your health data stays private and is never used for advertising,Privacy International,2019
+V015,Apple Health,On-Device,Health data processed and stored on device without transmission to Apple servers,Health data stays on your device and is not sent to Apple,Apple Documentation,2025
