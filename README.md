@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/23916864/README.md)
+[README.md](https://github.com/user-attachments/files/23917838/README.md)
 # Privacy Policy Deception Detection in Reproductive Health Applications
 
 ## A Deep Learning Approach to Detecting Human-Induced Data Disasters
@@ -6,6 +6,7 @@
 **Author:** Alexis Prieto  
 **Course:** ML/Deep Learning Research - Fall 2025  
 **Institution:** Texas A&M Univeristy-San Antonio: Computer Science Graduate Research Program
+
 
 ---
 
@@ -68,7 +69,30 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 │   ├── 03_category_distribution_all_apps.png
 │   ├── ... (13 total visualizations)
 │   └── README.md               # Chart descriptions
+├── demo/
+│   ├── Femtech_Privacy_Demo.ipynb  # Google Colab demo
+│   ├── streamlit_app.py            # Streamlit web demo
+│   └── README.md                   # Demo instructions
+├── .github/workflows/
+│   └── ml-pipeline.yml         # CI/CD pipeline
 └── README.md
+```
+
+---
+
+## Live Demo
+
+### Google Colab (Recommended)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo.ipynb)
+
+Click the badge above to run the interactive demo in Google Colab. No installation required.
+
+### Local Streamlit Demo
+
+```bash
+pip install streamlit
+streamlit run demo/streamlit_app.py
 ```
 
 ---
