@@ -1,0 +1,70 @@
+name: Validate Project
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas torch transformers
+    
+    - name: Validate data files exist
+      run: |
+        echo "Checking data files..."
+        test -f data/sample_labeled_sentences.csv && echo "✓ sample_labeled_sentences.csv exists"
+        test -f data/violations_policy_pairs.csv && echo "✓ violations_policy_pairs.csv exists"
+        test -f results/nli_results.csv && echo "✓ nli_results.csv exists"
+        test -f results/risk_scores.csv && echo "✓ risk_scores.csv exists"
+        echo "All data files present!"
+    
+    - name: Validate CSV structure
+      run: |
+        python -c "
+        import pandas as pd
+        
+        print('Validating CSV files...')
+        
+        # Check labeled sentences
+        df = pd.read_csv('data/sample_labeled_sentences.csv')
+        assert 'sentence' in df.columns, 'Missing sentence column'
+        assert 'label' in df.columns, 'Missing label column'
+        print(f'✓ sample_labeled_sentences.csv: {len(df)} rows')
+        
+        # Check violations
+        vdf = pd.read_csv('data/violations_policy_pairs.csv')
+        assert 'policy_sentence' in vdf.columns, 'Missing policy_sentence'
+        assert 'violation_description' in vdf.columns, 'Missing violation_description'
+        print(f'✓ violations_policy_pairs.csv: {len(vdf)} rows')
+        
+        # Check results
+        nli = pd.read_csv('results/nli_results.csv')
+        assert 'contradiction_score' in nli.columns
+        print(f'✓ nli_results.csv: {len(nli)} violations, avg score: {nli[\"contradiction_score\"].mean():.3f}')
+        
+        risk = pd.read_csv('results/risk_scores.csv')
+        assert 'risk_score' in risk.columns
+        print(f'✓ risk_scores.csv: {len(risk)} apps scored')
+        
+        print('\\n✅ All validations passed!')
+        "
+    
+    - name: Check Python files syntax
+      run: |
+        python -m py_compile src/bert_classifier.py
+        python -m py_compile src/nli_detector.py
+        echo "✓ All Python files have valid syntax"
