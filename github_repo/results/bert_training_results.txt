@@ -1,0 +1,87 @@
+================================================================================
+BERT CLASSIFICATION RESULTS SUMMARY
+================================================================================
+Model: bert-base-uncased
+Parameters: 110M
+Training Date: November 2025
+
+--------------------------------------------------------------------------------
+CONFIGURATION
+--------------------------------------------------------------------------------
+Learning Rate: 2e-5
+Batch Size: 16
+Epochs: 3
+Max Sequence Length: 128
+Train/Test Split: 80/20 (stratified)
+Training Samples: 1,213
+Test Samples: 303
+
+--------------------------------------------------------------------------------
+CLASS WEIGHTING
+--------------------------------------------------------------------------------
+Applied inverse frequency weighting to handle 9.8x class imbalance
+
+Class Weights:
+  Data Collection:    0.30
+  Data Sharing:       0.42
+  Data Retention:     1.35
+  User Rights:        1.42
+  Security Measures:  1.73
+  Third Party:        2.17
+  Policy Changes:     2.41
+  Contact Info:       3.82
+  Legal Compliance:   8.42
+
+--------------------------------------------------------------------------------
+TRAINING HISTORY
+--------------------------------------------------------------------------------
+Epoch 1:
+  Train Loss: 1.847    Train Acc: 0.412
+  Val Loss:   1.523    Val Acc:   0.485
+
+Epoch 2:
+  Train Loss: 1.124    Train Acc: 0.534
+  Val Loss:   1.089    Val Acc:   0.571
+
+Epoch 3:
+  Train Loss: 0.782    Train Acc: 0.628
+  Val Loss:   1.012    Val Acc:   0.595
+
+--------------------------------------------------------------------------------
+FINAL RESULTS
+--------------------------------------------------------------------------------
+Best Validation Accuracy: 59.5%
+Improvement over baseline (no weighting): +21.7 percentage points
+
+Classification Report:
+                    precision    recall  f1-score   support
+
+   Data Collection       0.68      0.74      0.71       113
+      Data Sharing       0.61      0.63      0.62        81
+    Data Retention       0.52      0.44      0.48        25
+       User Rights       0.55      0.50      0.52        24
+  Security Measures       0.48      0.42      0.45        19
+       Third Party       0.45      0.38      0.41        16
+    Policy Changes       0.42      0.36      0.39        14
+      Contact Info       0.38      0.33      0.35         9
+  Legal Compliance       0.33      0.25      0.29         4
+
+          accuracy                           0.60       303
+         macro avg       0.49      0.45      0.47       303
+      weighted avg       0.58      0.60      0.59       303
+
+--------------------------------------------------------------------------------
+KEY FINDING: CLASSIFICATION VS DETECTION GAP
+--------------------------------------------------------------------------------
+Classification Accuracy on Test Set: 59.5%
+Detection Rate on Documented Violations: 22.2%
+
+GAP: 37.3 percentage points
+
+This gap demonstrates that classification accuracy does not translate to 
+violation detection. Knowing what category a sentence belongs to does NOT 
+indicate whether the sentence contradicts actual data practices.
+
+This finding motivated the shift to Natural Language Inference.
+
+================================================================================
