@@ -6,10 +6,10 @@ This folder contains interactive demonstrations of the privacy policy deception 
 
 **Best for:** Class presentations, live demos, no setup required
 
-[![Open In Colab][(https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo_1.ipynb)](https://colab.research.google.com/gist/aprie06/4a059df8f5f4cf4c3484e458240c6083/femtech_privacy_demo_1.ipynb)
+[![Open In Colab](https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo_1.ipynb)](https://colab.research.google.com/gist/aprie06/4a059df8f5f4cf4c3484e458240c6083/Femtech_Privacy_Demo_1.ipynb)
 
 **To use:**
-1. Click the badge above or upload `femtech_privacy_demo1.ipynb` to Google Colab
+1. Click the badge above or upload `Femtech_Privacy_Demo_1.ipynb` to Google Colab
 2. Run all cells (Runtime > Run all)
 3. Wait for model to load (~2-3 minutes first time)
 4. Try the interactive examples
