@@ -5,7 +5,7 @@ This folder contains interactive demonstrations of the privacy policy deception 
 ## Option 1: Google Colab (Recommended for Presentations)
 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo.ipynb)
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo.ipynb)](https://colab.research.google.com/drive/12GUOCBz6VSIIFA7vPJGgW_GgToRBz-7F?usp=sharing)
 
 **To use:**
 1. Click the badge above or upload `Femtech_Privacy_Demo.ipynb` to Google Colab
