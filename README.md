@@ -42,15 +42,6 @@ The Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organizatio
 First application of **Natural Language Inference (NLI)** to privacy policy deception detection, achieving 76.4% average contradiction scores and 100% alignment with regulatory enforcement outcomes.
 
 ---
-### Research Questions
-
-1. What privacy categories appear most frequently in femtech policies?
-2. How effectively can BERT classify privacy policy sentences?
-3. **Can NLI detect semantic contradictions between policy claims and practices?** (Primary)
-4. How do classification and contradiction detection complement each other?
-5. Can integrated risk scoring predict regulatory enforcement likelihood?
-
----
 ## Repository Structure
 
 ```
@@ -187,6 +178,14 @@ python src/nli_detector.py \
 ---
 
 ## Methodology
+
+### Approach
+
+1. What privacy categories appear most frequently in femtech policies?
+2. How effectively can BERT classify privacy policy sentences?
+3. **Can NLI detect semantic contradictions between policy claims and practices?** (Primary)
+4. How do classification and contradiction detection complement each other?
+5. Can integrated risk scoring predict regulatory enforcement likelihood?
 
 ### Stage 1: BERT Classification
 
