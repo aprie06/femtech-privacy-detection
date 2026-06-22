@@ -2,7 +2,7 @@
 
 This folder contains interactive demonstrations of the privacy policy deception detection system.
 
-## Option 1: Google Colab (Recommended for Presentations)
+## Option 1: Google Colab 
 
 **Best for:** Class presentations, live demos, no setup required
 
@@ -19,27 +19,3 @@ This folder contains interactive demonstrations of the privacy policy deception 
 - Interactive custom input testing
 - Batch analysis of all documented violations
 - No installation required
-
----
-
-## Option 2: Streamlit App (Local Web Interface)
-
-**Best for:** Interactive exploration, custom demos
-
-**To run locally:**
-
-```bash
-# Install Streamlit
-pip install streamlit
-
-# Run the app
-streamlit run demo/streamlit_app.py
-```
-
-Then open http://localhost:8501 in your browser.
-
-**Features:**
-- Web-based interface
-- Real-time contradiction detection
-- Pre-loaded examples with one-click loading
-- Visual severity indicators
