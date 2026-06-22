@@ -6,7 +6,6 @@ from reproductive health applications. Addresses class imbalance through
 inverse frequency weighting.
 
 Author: Alexis Prieto
-Course: ML/Deep Learning Research - Fall 2025
 """
 
 import torch
