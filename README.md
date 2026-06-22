@@ -1,7 +1,6 @@
 [README.md](https://github.com/user-attachments/files/23917838/README.md)
-# Privacy Policy Deception Detection in Reproductive Health Applications
 
-## A Deep Learning Approach to Detecting Human-Induced Data Disasters
+Femtech Privacy Detection: Automated Deception Detection in Reproductive Health App Policies
 
 **Author:** Alexis Prieto  
 MS Computer Science Research, Texas A&M University-San Antonio, 2025 
