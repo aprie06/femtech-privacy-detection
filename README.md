@@ -4,8 +4,8 @@
 ## A Deep Learning Approach to Detecting Human-Induced Data Disasters
 
 **Author:** Alexis Prieto  
-**Course:** ML/Deep Learning Research - Fall 2025  
-**Institution:** Texas A&M Univeristy-San Antonio: Computer Science Graduate Research Program
+MS Computer Science Research, Texas A&M University-San Antonio, 2025 
+
 
 
 ---
