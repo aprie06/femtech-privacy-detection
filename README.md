@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/23917838/README.md)
 
-Femtech Privacy Detection: Automated Deception Detection in Reproductive Health App Policies
+## Femtech Privacy Detection: Automated Deception Detection in Reproductive Health App Policies
 
 **Author:** Alexis Prieto  
 MS Computer Science Research, Texas A&M University-San Antonio, 2025 
