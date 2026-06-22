@@ -88,14 +88,6 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 Click the badge above to run the interactive demo in Google Colab. No installation required.
 
-### Local Streamlit Demo
-
-```bash
-pip install streamlit
-streamlit run demo/streamlit_app.py
-```
-
----
 
 ## Installation
 
