@@ -20,6 +20,7 @@ This project applies deep learning techniques to detect privacy policy deception
 - Criminal exposure risks in post-Dobbs legal environment
 
 ## Why This Matters Now
+
 The Supreme Court's 2022 decision in Dobbs v. Jackson Women's Health Organization fundamentally changed the legal stakes of reproductive health data. In at least 13 states, seeking or providing abortion services carries criminal penalties. Femtech applications collect some of the most sensitive data a person can generate, including menstrual cycles, pregnancy status, and fertility patterns, yet the industry has a documented pattern of sharing that data with third parties while claiming otherwise in their privacy policies. This is not a theoretical risk. FTC enforcement actions, state AG settlements, and investigative journalism have confirmed that the gap between what these apps promise and what they actually do is real, measurable, and harmful. This project builds a system to detect that gap automatically, before regulators catch it.
 
 
@@ -48,6 +49,7 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 3. **Can NLI detect semantic contradictions between policy claims and practices?** (Primary)
 4. How do classification and contradiction detection complement each other?
 5. Can integrated risk scoring predict regulatory enforcement likelihood?
+
 ---
 ## Repository Structure
 
