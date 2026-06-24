@@ -242,8 +242,7 @@ The integrated risk scoring achieved **100% alignment** with regulatory enforcem
 
 ```bibtex
 @article{prieto2025femtech,
-  title={Detecting Privacy Policy Deception in Reproductive Health Applications: 
-         A Deep Learning Approach to Human-Induced Data Disasters},
+  title={Femtech Privacy Detection: Automated Deception Detection in Reproductive Health App Policies},
   author={Prieto, Alexis},
   journal={ML/Deep Learning Research},
   year={2025}
