@@ -1,5 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23917838/README.md)
-
 ## Femtech Privacy Detection: Automated Deception Detection in Reproductive Health App Policies
 
 **Author:** Alexis Prieto  
@@ -79,9 +77,9 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 ### Modal High Performance AI Infrastructure
 
-[![Open In Modal]((https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/))
+(https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/)
 
-Click the badge above to run the interactive demo in Modal. No installation required.
+Click the link above to run the interactive demo in Modal. No installation required.
 
 
 ## Installation
