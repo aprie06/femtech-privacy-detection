@@ -77,9 +77,9 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 ## Live Demo
 
-### Google Colab (Recommended)
+### Modal High Performance AI Infrastructure
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aprie06/femtech-privacy-disaster-detection/blob/main/demo/Femtech_Privacy_Demo.ipynb)
+[![Open In Modal](https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/?__theme=dark)
 
 Click the badge above to run the interactive demo in Google Colab. No installation required.
 
