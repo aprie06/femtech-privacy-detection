@@ -79,7 +79,7 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 ### Modal High Performance AI Infrastructure
 
-[![Open In Modal] (https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/)
+[![Open In Modal](https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/)
 
 Click the badge above to run the interactive demo in Modal. No installation required.
 
