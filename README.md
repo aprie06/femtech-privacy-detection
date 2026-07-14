@@ -81,7 +81,7 @@ First application of **Natural Language Inference (NLI)** to privacy policy dece
 
 [![Open In Modal](https://alexisnicholeprieto--femtech-privacy-nli-ui.modal.run/?__theme=dark)
 
-Click the badge above to run the interactive demo in Google Colab. No installation required.
+Click the badge above to run the interactive demo in Modal. No installation required.
 
 
 ## Installation
